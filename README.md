@@ -11,7 +11,7 @@ sudo apt install nginx
 cd /var/www
 sudo mkdir mywebsite.com
 ```
-For testing purposes, setup the default html pages. (or you can past your full project file `/var/www/mywebsite.com` directory.)
+For testing purposes, setup the default html pages. (or you can paste(ctrl+c and ctrl+v) your full project file ```/var/www/mywebsite.com``` directory.)
 ```
 nano /var/www/mywebsite.com/index.html
 ```
@@ -87,7 +87,7 @@ http {
 ```
 sudo service nginx restart
 ```
-### Browse your site in your browser
+### Browse your site from your browser
 ```
 127.0.0.1:81
 ```
