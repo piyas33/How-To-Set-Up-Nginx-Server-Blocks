@@ -67,8 +67,17 @@ server {
 ```
 sudo service nginx restart
 ```
+###  Enable the server block
+```
+sudo ln -s /etc/nginx/sites-available/mywebsite.com /etc/nginx/sites-enabled/
+```
 
 ### Browse your site in your browser
 ```
 127.0.0.1:81
+```
+### Other commend
+Test nginx
+```
+sudo nginx -t
 ```
